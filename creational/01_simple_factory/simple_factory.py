@@ -50,5 +50,12 @@ class UserFactory:
 
 
 if __name__ == "__main__":
-    curr_user = UserFactory("admin")
-    curr_user.create()
+    UserFactory("admin").create()
+    UserFactory("user").create()
+    UserFactory("customer").create()
+
+
+# ================ Output ================
+# Created admin user
+# Created simple user
+# Created customer user

@@ -159,3 +159,10 @@ if __name__ == "__main__":
 
     app = Application(os_factory)
     app.draw()
+
+
+# ================ Output ================
+# Creating linux button
+# Creating linux text area element
+# Here are some instructions of how to draw linux button
+# Here are some instructions of how to draw linux text area

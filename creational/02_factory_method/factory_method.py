@@ -114,6 +114,7 @@ if __name__ == "__main__":
         "Windows": WinDialog,
     }
     my_os = platform.system()
+    print(my_os)
 
     dialog = platform_factories.get(my_os)
     if not dialog:
@@ -121,3 +122,8 @@ if __name__ == "__main__":
 
     dialog = dialog()
     dialog.draw()
+
+
+# ================ Output ================
+# Linux
+# Drawing button. Height: 15, Weight: 25, Color: Grey

@@ -151,3 +151,14 @@ if __name__ == '__main__':
     manual_builder.set_seats(1)
     manual_builder.set_engine("minimal one")
     manual_builder.product.get_parts()
+
+
+# ================ Output ================
+# Car parts: ['Set Big one Engine', 'Set 10 Seats']
+# Manual parts: ['The car have a very insatiable engine. You should by more fuel', 'There are many doors in the car']
+# Car parts: ['Set Sport Engine', 'Set 2 Seats']
+# Manual parts: ['The car have a good engine for sport competitions', 'There are 3 doors in the car']
+# Car parts: ['Set 4 Seats']
+# Manual parts: ['There are 5 doors in the car']
+# Car parts: ['Set 1 Seats', 'Set minimal one Engine']
+# Manual parts: ['There should be some doors in the car, I think', 'The car have some engine, I think']

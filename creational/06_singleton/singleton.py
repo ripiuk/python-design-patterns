@@ -48,8 +48,7 @@ if __name__ == "__main__":
     db1 = Database(host='localhost', port=3306, password='123')
     db2 = Database(host='localhost', port=22156, password='root')
 
-    print(db1, db2, sep='\n')
-    print(id(db1) == id(db2))
+    print(db1, db2, id(db1) == id(db2), sep='\n')
 
 
 # ================ Output ================

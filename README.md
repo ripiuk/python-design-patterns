@@ -12,3 +12,4 @@ of a class, there are multiple instances that share the same state.
 * Structural
     * [Adapter](structural/01_adapter) - helps us make two incompatible interfaces compatible.
     * [Bridge](structural/02_bridge) - involves an interface which acts as a bridge which makes the functionality of concrete classes independent from interface implementer classes.
+    * [Composite](structural/03_composite) - describes a group of objects that is treated the same way as a single instance of the same type of object.

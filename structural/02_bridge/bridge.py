@@ -107,7 +107,7 @@ if __name__ == "__main__":
     tv_remote.toggle_power()
     tv_remote.next_channel()
 
-    print('\n')
+    print('-' * 30)
     radio = Radio()
     radio_remote = AdvancedRemote(radio)
     radio_remote.next_channel()
@@ -120,7 +120,7 @@ if __name__ == "__main__":
 # Please turn on the TV first
 # Turning on TV
 # Set TV channel: 2
-#
+# ------------------------------
 # Please turn on the Radio first
 # Turning on Radio
 # Set Radio channel: 99.2
